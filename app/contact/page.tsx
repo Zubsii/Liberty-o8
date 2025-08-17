@@ -44,8 +44,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-red-600" />,
       title: "Email",
-      details: ["info@libertysports.com", "orders@libertysports.com"],
-      action: "mailto:info@libertysports.com",
+      details: ["libertyprinting1098@gmail.com", "lpsny1098@gmail.com"],
+      action: "mailto:libertyprinting1098@gmail.com",
     },
     {
       icon: <MapPin className="h-6 w-6 text-red-600" />,
@@ -210,7 +210,7 @@ export default function Contact() {
                 <CardContent className="p-6">
                   <h3 className="font-bold text-gray-900 mb-4">Follow Us</h3>
                   <div className="flex space-x-4">
-                    <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">
+                    <a href="https://www.facebook.com/profile.php?id=61577837999855" className="text-gray-600 hover:text-red-600 transition-colors">
                       <Facebook className="h-6 w-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">
@@ -233,7 +233,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Visit Our Store</h2>
             <p className="text-lg text-gray-600">
-              Come visit us at our location in Liberty Street. We'd love to show you our products and discuss your project in
+              Come visit us at our location in Brooklyn. We'd love to show you our products and discuss your project in
               person.
             </p>
           </div>
