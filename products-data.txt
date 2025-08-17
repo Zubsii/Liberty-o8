@@ -1,0 +1,21 @@
+Our Services page should not show prices. Here are all the products and their sizes(Inch) and price:
+Receipt Book-Two Part; Sizes available - 5.5 x 8.5; Price - 10 Book - $140, 20 Book $250; Material - Auto Carbon
+Spiral Binding; No Size option; Price - $7 Each book
+Roll Up Banner - One Side, with Stand; Sizes available - 33'' x 80''; Price - $210
+Digital Banner; Size writing option; Price - $4 Per SqFt
+Sticker/Label; Size Options - 3.5 x 2.5; Price - 100 pcs - $50, 500 pcs - $160, 1000 pcs - $250, 5000 pcs - $450
+Envelope Print; When Size - 4 x 10 - Price $160, When Size - 9 x 12 - Price - $425
+Sidewalk Sign - Double Sided; Size Option - 24 x 36; Price - $210
+Regular Photo - Each Photo; When Size - 4 x 6; Price - $2, When Size - 5 x 7; Price - $4, When Size - 8.5 x 11; Price - $7
+Lamination; Each Page - ID Size; Price - $3, 8.5 x 11; Price - $6, 12 x 18; Price - $12
+Scan & Email - $1 (Each Page); Computer Print - $1 (Each Page); FAX - $1; Bangla Type - $10 (Per Page)
+Color Copy; Price - $1; BLACK & WHITE COPY; 1-5 Pages - 50¢; 6-100 Pages - 20¢; 101-999 Pages - 15¢; 1000 to up - 10¢; Legal Page Copy - $1
+Passport Photo; 4 Copy - $10; 6 Copy - $15; 8 Copy - $20
+Tshirt/Cap/Mug; 1 Pcs - $15; 2-5 Pcs - $10; 6-12 Pcs - $8; 13 to up - $6
+Event Ticket; Size - 2 x 5; 100 Copy - $75; 200 Copy - $120; 500 Copy - $160; 1000 Copy - $280
+Calendar; When Size - 11 x 17 (12 Pages); 100 Pc - $220; Size - 9 x 12 (6 Pages); 500 Pc - $2400; Size - 9 x 12 (6 Pages); 1000 Pc - $ 3600
+Waterproof Sticker; Per Sqft - $5
+Coroplast Board; Per Sqft - $8
+Business Card; 100 Pcs(One Side) - $25; 200(One Side)  Pcs - $35; 500 Pcs(Two Side) - $50; 1000 Pcs(Two Side) - $75; 5000 Pcs(Two Side) - $110
+Restaurant Menu; 500 Pcs - $300; 1000 Pcs - $400; 2500 Pcs - $450; 5000 Pcs - $800; 10000 Pcs - $1500
+Flyer & Post Card; Size - 11 x 17; 100 Pcs - $50; 500 Pcs - $75; 1000 Pcs - $115; 2500 Pcs - $175; 5000 Pcs - $225
