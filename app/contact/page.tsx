@@ -38,8 +38,8 @@ export default function Contact() {
     {
       icon: <Phone className="h-6 w-6 text-red-600" />,
       title: "Phone",
-      details: ["+880 1234-567890", "+880 9876-543210"],
-      action: "tel:+8801234567890",
+      details: ["+13478411426"],
+      action: "tel:+13478411426",
     },
     {
       icon: <Mail className="h-6 w-6 text-red-600" />,
@@ -50,8 +50,8 @@ export default function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-red-600" />,
       title: "Address",
-      details: ["123 Sports Street", "Dhaka 1000, Bangladesh"],
-      action: "#",
+      details: ["1098 Liberty Ave, Brooklyn", "NY 11208, United States"],
+      action: "https://maps.app.goo.gl/3fVMe1Kk2QdLUvje7",
     },
     {
       icon: <Clock className="h-6 w-6 text-red-600" />,
@@ -233,7 +233,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Visit Our Store</h2>
             <p className="text-lg text-gray-600">
-              Come visit us at our location in Dhaka. We'd love to show you our products and discuss your project in
+              Come visit us at our location in Liberty Street. We'd love to show you our products and discuss your project in
               person.
             </p>
           </div>
@@ -243,7 +243,7 @@ export default function Contact() {
             <div className="text-center">
               <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
               <p className="text-gray-600">Google Maps integration would go here</p>
-              <p className="text-sm text-gray-500">123 Sports Street, Dhaka 1000, Bangladesh</p>
+              <p className="text-sm text-gray-500">1098 Liberty Ave, Brooklyn, NY 11208, United States</p>
             </div>
           </div>
         </div>
