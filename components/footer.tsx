@@ -56,15 +56,15 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-red-600" />
-                <span className="text-gray-300">+880 1234-567890</span>
+                <span className="text-gray-300">+13478411426</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-red-600" />
-                <span className="text-gray-300">info@libertysports.com</span>
+                <span className="text-gray-300">lpsny1098@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-red-600" />
-                <span className="text-gray-300">Dhaka, Bangladesh</span>
+                <span className="text-gray-300">New York, United States </span>
               </div>
             </div>
           </div>

@@ -40,24 +40,28 @@ export default function Contact() {
       title: "Phone",
       details: ["+13478411426"],
       action: "tel:+13478411426",
+      isClickable: true,
     },
     {
       icon: <Mail className="h-6 w-6 text-red-600" />,
       title: "Email",
       details: ["libertyprinting1098@gmail.com", "lpsny1098@gmail.com"],
       action: "mailto:libertyprinting1098@gmail.com",
+      isClickable: true,
     },
     {
       icon: <MapPin className="h-6 w-6 text-red-600" />,
       title: "Address",
       details: ["1098 Liberty Ave, Brooklyn", "NY 11208, United States"],
-      action: "https://maps.app.goo.gl/3fVMe1Kk2QdLUvje7",
+      action: "https://maps.app.goo.gl/SujFSZEmbUeRzZ9r6",
+      isClickable: true,
     },
     {
       icon: <Clock className="h-6 w-6 text-red-600" />,
       title: "Business Hours",
       details: ["Mon - Sat: 9:00 AM - 8:00 PM", "Sunday: 10:00 AM - 6:00 PM"],
       action: "#",
+      isClickable: false,
     },
   ]
 
@@ -189,8 +193,13 @@ export default function Contact() {
                           <h3 className="font-bold text-gray-900 mb-2">{info.title}</h3>
                           {info.details.map((detail, detailIndex) => (
                             <p key={detailIndex} className="text-gray-600 text-sm">
-                              {info.action.startsWith("tel:") || info.action.startsWith("mailto:") ? (
-                                <a href={info.action} className="hover:text-red-600">
+                              {info.isClickable && info.action !== "#" ? (
+                                <a
+                                  href={info.action}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="hover:text-red-600 cursor-pointer transition-colors"
+                                >
                                   {detail}
                                 </a>
                               ) : (
@@ -210,7 +219,12 @@ export default function Contact() {
                 <CardContent className="p-6">
                   <h3 className="font-bold text-gray-900 mb-4">Follow Us</h3>
                   <div className="flex space-x-4">
-                    <a href="https://www.facebook.com/profile.php?id=61577837999855" className="text-gray-600 hover:text-red-600 transition-colors">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61577837999855"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-red-600 transition-colors"
+                    >
                       <Facebook className="h-6 w-6" />
                     </a>
                     <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">
@@ -238,12 +252,41 @@ export default function Contact() {
             </p>
           </div>
 
-          {/* Placeholder for Google Maps */}
-          <div className="bg-gray-300 rounded-lg h-96 flex items-center justify-center">
+          {/* Interactive Map Section */}
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <div className="text-center mb-6">
+              <MapPin className="h-16 w-16 text-red-600 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Liberty Printing & Sports</h3>
+              <a
+                href="https://maps.app.goo.gl/SujFSZEmbUeRzZ9r6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg text-red-600 hover:text-red-700 transition-colors cursor-pointer"
+              >
+                1098 Liberty Ave, Brooklyn, NY 11208, United States
+              </a>
+            </div>
+
+            {/* Embedded Google Maps */}
+            <div className="flex justify-center mb-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.8045879674173!2d-73.86869240000001!3d40.6782744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25d884b9d8113%3A0x422ef2ee0597a9e6!2sLiberty%20Printing%20%26%20Sports!5e0!3m2!1sen!2sbd!4v1755451637121!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg shadow-md w-full max-w-4xl"
+              />
+            </div>
+
             <div className="text-center">
-              <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
-              <p className="text-gray-600">Google Maps integration would go here</p>
-              <p className="text-sm text-gray-500">1098 Liberty Ave, Brooklyn, NY 11208, United States</p>
+              <Button asChild className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
+                <a href="https://maps.app.goo.gl/SujFSZEmbUeRzZ9r6" target="_blank" rel="noopener noreferrer">
+                  Get Directions
+                </a>
+              </Button>
             </div>
           </div>
         </div>
